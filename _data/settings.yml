@@ -1,0 +1,21 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: true
+  disqus_shortname: 'apham'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: 'UA-91332049-1'
+
+menu: 
+  - name: ¿Quiénes somos?
+    link: /somos
+  - name: Siguenos
+    submenu:
+      - name: facebook
+        icon: facebook
+        link: https://wwww.facebook.com/lidia.cervantes.925
+      - name: youtube
+        icon: youtube
+        link: https://www.youtube.com/watch?v=fBEhP3g-1M8
+
+    
