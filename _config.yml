@@ -1,4 +1,12 @@
 backend:
   name: github
   repo: helainefc/roliis
-media_folder: assets
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include: ["_pages"]
+permalink: /posts/:title/
